@@ -11,6 +11,8 @@ gem 'puma', '>= 5.6.4'
 gem 'sass-rails', '~> 6.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
+# Use kaminari for activerecord pagination
+gem 'kaminari'
 # Use Uglifier as compressor for JavaScript assets
 # gem 'uglifier', '~> 4.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -27,7 +29,9 @@ gem 'jbuilder', '~> 2.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1'
+gem 'bcrypt', '~> 3.1'
+# Use Stripe for receiving payments
+gem 'stripe'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
